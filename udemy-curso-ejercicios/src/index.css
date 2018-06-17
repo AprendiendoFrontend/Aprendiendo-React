@@ -1,5 +1,36 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'system-ui', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  bottom: 0px;
+  display: block;
+  font-size: 13px;
+  height: 100vh;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 250px;
+  background: rgb(238, 238, 238);
+  overflow: auto;
+}
+
+aside h3 {
+  color: rgb(82, 82, 82);
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+main {
+  display: block;
+  margin-left: 250px;
 }
