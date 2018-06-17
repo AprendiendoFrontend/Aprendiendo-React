@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class PokemonList extends Component {
+export class PokemonsList extends Component {
   render() {
     // Mediante el destructuring podemos crear una variable y asignarle el valor de la referencia que corresponda con el mismo nombre
     // más información sobre destructuring aquí:
