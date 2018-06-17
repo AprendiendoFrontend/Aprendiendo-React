@@ -1,26 +1,21 @@
 import React, { Component } from "react";
-import PokemonList from "./01-props/pokemonList";
-import data from "./data/pokemons.json";
-/**
- * Para ejecutar el primer ejercicio has de importar lo siguiente:
- * import PokemonList from './01-props/pokemonList'
- * import data from "./data/pokemons.json"
- *
- * Luego, en el render, deberías utilizar el componente así
- *   render () {
-      return (
-        <div className="App">
-          <PokemonList pokemons={data}/>
-        </div>
-      );
-    }
- */
+import {Link, Route, Switch} from 'react-router-dom'
+
+import {Ex01} from "./01-props/";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <PokemonList pokemons={data} />
+        <aside>
+          <h3>Ejercicios</h3>
+          <Link to='/ex-01'>Props</Link>
+        </aside>
+        <main>
+          <Switch>
+            <Route path='/ex-01' component={Ex01} />
+          </Switch>
+        </main>
       </div>
     );
   }
