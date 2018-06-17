@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import PokemonList from "./exercises/props/pokemonList";
+import PokemonList from "./01-props/pokemonList";
 import data from "./data/pokemons.json";
 /**
  * Para ejecutar el primer ejercicio has de importar lo siguiente:
- * import PokemonList from './exercises/props/pokemonList'
+ * import PokemonList from './01-props/pokemonList'
  * import data from "./data/pokemons.json"
  *
  * Luego, en el render, deberías utilizar el componente así
