@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Raichu",
+    "image": "https://img.pokemondb.net/artwork/raichu.jpg",
+    "specs": {
+      "type": "Electric",
+      "abilities": "Lightning Rod"
+    }
+  },
+  {
+    "name": "Dragonite",
+    "image": "https://img.pokemondb.net/artwork/dragonite.jpg",
+    "specs": {
+      "type": "Dragon",
+      "abilities": "Inner focus"
+    }
+  },
+  {
+    "name": "Gyarados",
+    "image": "https://img.pokemondb.net/artwork/gyarados.jpg",
+    "specs": {
+      "type": "Water",
+      "abilities": "Intimidate"
+    }
+  },
+  {
+    "name": "Venusaur",
+    "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+    "specs": {
+      "type": "Grass",
+      "abilities": "Overgrow"
+    }
+  }
+]

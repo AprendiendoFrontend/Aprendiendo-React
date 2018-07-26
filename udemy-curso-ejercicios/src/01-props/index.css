@@ -1,0 +1,20 @@
+.pokemon-container {
+  background-color: azure;
+}
+
+.pokemon-heading {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.pokemon-item {
+  background-color: white;
+  box-shadow: 1px 5px 15px grey;
+  margin: 32px 16px;
+  padding: 4px 16px;
+}
+
+.pokemon-specs {
+  list-style-type: none;
+  padding: 0;
+}
